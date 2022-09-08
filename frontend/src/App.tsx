@@ -1,15 +1,15 @@
 import Header from "./components/Header"
-import salesCard from "./components/SalesCard"
+import SalesCard from"./components/SalesCard"
 
 
-function App() {
+function App(): JSX.Element {
   return (
     <> 
     <Header />
     <main>
       <section id="sales">
         <div className="dsmeta-container">
-
+<SalesCard/>
         </div>
         </section>
         </main>
